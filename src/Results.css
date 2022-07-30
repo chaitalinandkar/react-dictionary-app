@@ -1,0 +1,13 @@
+.Results{
+  text-align: left;
+  display: block;
+  margin: 100px auto;
+  max-width: 800px;
+}
+
+.searchedWord{
+  border: 0.5px solid #66706d;
+  box-shadow: 7px 5px 9px rgba(125, 124, 124, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
