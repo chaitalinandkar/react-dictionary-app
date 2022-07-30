@@ -9,7 +9,7 @@ export default function Results(props) {
       <div className="Results">
         <div className="searchedWord">
           <h4 className="fs-1 text-capitalize">{props.result.word}</h4>
-          <h4><a href={props.result.phonetics[0].audio} target="_blank"><i class="fa-solid fa-circle-play me-3"></i></a>{props.result.phonetic}</h4>
+          <h4><a href={props.result.phonetics[0].audio} target="_blank" rel="noreferrer"><i class="fa-solid fa-circle-play me-3"></i></a>{props.result.phonetic}</h4>
         </div>
         
         {props.result.meanings.map(function (meaning, index) {
