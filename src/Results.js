@@ -16,17 +16,13 @@ export default function Results(props) {
           
           <h4 className="fs-1 text-capitalize">{props.result.word}</h4>
     
-          {/* {props.result.phonetics.map(function (audio, index) {
+          {props.result.phonetics.map(function (audio, index) {
             return <span key={index}><PhoneticsAudio audio={audio} /></span>
           })}
 
           {props.result.phonetics.map(function (text, index) {
             return <span key={index}><PhoneticsText text={text} /></span>
           })}  
-           */}
-          
-          <PhoneticsAudio audio={props.result} />
-          <PhoneticsText text={props.result} />
 
         </div>
         
