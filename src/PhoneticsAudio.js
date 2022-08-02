@@ -23,7 +23,7 @@ export default function PhoneticsAudio(props) {
       />
     </div>
   );
-  } {
+  } else{
       return null;
   }
 

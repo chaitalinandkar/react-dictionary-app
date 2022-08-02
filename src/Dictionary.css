@@ -1,7 +1,15 @@
 .Search-Engine {
   display: block;
-  margin: 50px auto;
+  margin: 30px auto;
   width: 400px;
-  padding: 5px;
+  height: 50px;
+  padding: 10px;
   border-radius: 4px
+}
+form{
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  /* border: 2px solid rgb(0, 89, 137); */
+  
 }

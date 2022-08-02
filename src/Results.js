@@ -26,7 +26,7 @@ export default function Results(props) {
            */}
           
           <PhoneticsAudio audio={props.result} />
-          <PhoneticsText text={props.result.phonetic} />
+          <PhoneticsText text={props.result} />
 
         </div>
         
