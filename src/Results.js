@@ -3,6 +3,9 @@ import Meaning from "./Meaning";
 import "./Results.css"
 import Synonyms from "./Synonyms";
 import Antonyms from "./Antonyms";
+import PhoneticsAudio from "./PhoneticsAudio";
+import PhoneticsText from "./PhoneticsText";
+
 
 export default function Results(props) {
 
@@ -10,8 +13,21 @@ export default function Results(props) {
     return (
       <div className="Results">
         <div className="searchedWord">
+          
           <h4 className="fs-1 text-capitalize">{props.result.word}</h4>
-          <h4><a href={props.result.phonetics[0].audio} target="_blank" rel="noreferrer"><i class="fa-solid fa-circle-play me-3"></i></a>{props.result.phonetics[0].text}</h4>
+    
+          {/* {props.result.phonetics.map(function (audio, index) {
+            return <span key={index}><PhoneticsAudio audio={audio} /></span>
+          })}
+
+          {props.result.phonetics.map(function (text, index) {
+            return <span key={index}><PhoneticsText text={text} /></span>
+          })}  
+           */}
+          
+          <PhoneticsAudio audio={props.result} />
+          <PhoneticsText text={props.result.phonetic} />
+
         </div>
         
         {props.result.meanings.map(function (meaning, index) {

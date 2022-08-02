@@ -12,3 +12,7 @@
   border-radius: 10px;
   background: linear-gradient(to top, #ffc7c2 0%, #fbf3f3 100%);
 }
+
+.Phonetics-alignment{
+  display: inline-block;
+}
