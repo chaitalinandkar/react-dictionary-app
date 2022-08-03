@@ -11,7 +11,7 @@ function App() {
       </header>
       <Dictionary searchWord="Sunset" />
       <footer>
-        <p>Coded by Chaitali Nandkar and <a href='https://github.com/chaitalinandkar/react-dictionary-app' className='text-decoration-none'>open source</a></p>
+        <p>Coded by <a href='/' className='text-decoration-none'>Chaitali Nandkar</a> and <a href='https://github.com/chaitalinandkar/react-dictionary-app' className='text-decoration-none'>open source</a></p>
       </footer>
     </div>
   );

@@ -6,6 +6,7 @@ import Antonyms from "./Antonyms";
 import Phonetics from "./Phonetics";
 
 
+
 export default function Results(props) {
 
   if (props.result) {
@@ -18,10 +19,6 @@ export default function Results(props) {
           {props.result.phonetics.map(function (audio, index) {
             return <span key={index}><Phonetics phonetics={audio} /></span>
           })}
-
-          {/* {props.result.phonetics.map(function (text, index) {
-            return <span key={index}><PhoneticsText text={text} /></span>
-          })}   */}
 
         </div>
         
