@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="img-fluid App-logo" alt="logo" />
         <h1 className='text-center mt-5'>Dictionary App</h1>
       </header>
-      <Dictionary />
+      <Dictionary searchWord="Sunset" />
       <footer>
         <p>Coded by Chaitali Nandkar and <a href='https://github.com/chaitalinandkar/react-dictionary-app' className='text-decoration-none'>open source</a></p>
       </footer>

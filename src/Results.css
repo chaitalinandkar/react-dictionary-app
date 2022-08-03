@@ -10,7 +10,7 @@
   box-shadow: 7px 5px 9px rgba(125, 124, 124, 0.5);
   padding: 30px;
   border-radius: 10px;
-  background: linear-gradient(to top, #ffc7c2 0%, #fbf3f3 100%);
+  background-color: white;
 }
 
 .Phonetics-alignment{
